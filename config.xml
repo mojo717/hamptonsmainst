@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.hamptons.hamptonsmainst"
+        versionCode="101" 
+        version   = "1.0.1">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Hamptons Main St</name>
+
+    <description>
+       Hamptons Main Street is a half hour news magazine show which can be seen Saturdays on Cablevision Channel 20 and on the website hamptons-mainstreet.com.
+    </description>
+
+    <author href="https://www.hamptons.com" email="mgoodsell@hamptons.com">
+        Hardeep Shoker 
+    </author>
+	
+	<icon src="icons/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
+	<icon src="icons/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
+	<icon src="icons/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
+	<icon src="icons/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+
+</widget>
