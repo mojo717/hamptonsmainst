@@ -2,8 +2,8 @@
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.hamptons_hamptonsmainst"
-        versionCode="201" 
-        version   = "2.0.1">
+        versionCode="202" 
+        version   = "2.0.2">
 
     <!-- versionCode is optional and Android only -->
 
@@ -14,7 +14,7 @@
     </description>
 
     <author href="https://www.hamptons.com" email="mgoodsell@hamptons.com">
-        Hardeep Shoker 
+        Hamptons Online
     </author>
 	
 	<icon src="icons/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
