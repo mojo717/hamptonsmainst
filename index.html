@@ -6,65 +6,37 @@
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
 <link rel="stylesheet" href="css/hamptons02.min.css" />
-
 </head>
-
+    
 <body>
 
-<!-- HOME -->
-<div data-role="page" id="homeListPage" data-theme="a" >
-	<!-- header -->
+<div id="categoriesListPage" data-role="page" data-add-back-btn="true" data-theme="a">
+
 	<div data-role="header" style="background:url('img/bghead.gif');height:98px">
 		<div style="width:100%;padding:10px 0px 0px 0px;text-align:center;">
 			<a href="index.html" rel="external"><img src="img/logo.png"></a>
 		</div>
+		<div align="center"><div id="datenav"></div></div>
 	</div>
-	<!-- content -->
-	<div data-role="content" style="background:url('img/bg01_white.jpg');background-color:#ffffff;background-repeat:repeat-x;text-align:center">
-		<ul id="contentlist" data-role="listview" data-inset="false" data-theme="a" style="margin:5px auto 5px auto;width:85%;"></ul>
-		<p style="width:80%;color:#000088;margin:15px auto 5px auto;padding:20px;line-height:180%;font-size:14pt;">Hamptons Main Street is a half hour news magazine style show. The show can be seen Saturdays on Cablevision Channel 20 in Southampton and on the website Hamptons-Main Street.com.</p>
-	<br>
-	</div>
-	<!-- footer -->
-	<div data-role="footer" data-position="fixed">
-		<h4>&copy; <a href="http://www.hamptons-mainstreet.com" target="_blank" style="color:#fff">Hamptons-Mainstreet.com</a></h4>
-	</div>
-	
-</div>
 
-<!-- CAST -->
-<div data-role="page" id="about" data-theme="a" >
-	<!-- header -->
-	<div data-role="header" style="background:url('img/bghead.gif');height:98px">
-		<div style="width:100%;padding:10px 0px 0px 0px;text-align:center;">
-			<a href="index.html"><img src="img/logo.png"></a>
-		</div>
-	</div>
-	<!-- content -->
 	<div data-role="content" style="background:url('img/bg01_white.jpg');background-color:#ffffff;background-repeat:repeat-x;text-align:center">
-		<p style="width:80%;background-color:#ffffff;color:#000088;margin:15px auto 5px auto;padding:20px;line-height:180%;font-size:14pt;">
-			<img src="img/about.jpg" style="width:100%">
-			Hamptons Main Street is a 1/2 hour news magazine style show. The show can be seen Saturdays on Cablevision Channel 20 in Southampton and on the website Hamptons-Main Street.com. The segments will be a potpourri of the unique charm of Hamptons' Main Streets from Westhampton to Montauk. A highlight of each segment will be "Secrets of the Hamptons" which will spotlight unusual aspects of Hamptons' residents - i.e. local business. fashion and services that are found in the world renown Hamptons. Each segment will be available on a viral app on food, artists, health, beauty, cooking, money, decorating, relationships, and sports, all with a particular Hamptons slant.<br><br>
-			<a href="index.html" data-role="button">Back</a>
-		</p>
-	<br>
-	</div>
-	<!-- footer -->
+        <ul id="categoriesList" data-role="listview" data-inset="false" data-theme="a" style="margin:30px auto 30px auto;width:85%;"></ul>
+    </div>
+
 	<div data-role="footer" data-position="fixed">
 		<h4>&copy; <a href="http://www.hamptons-mainstreet.com" target="_blank" style="color:#fff">Hamptons-Mainstreet.com</a></h4>
 	</div>
-	
+
+
 </div>
 
 
 
 <script src="js/jquery.1.10.2.js"></script>
-<script src="js/jquery.mobile-1.3.2.min.js"></script>	
-<script src="js/homelist.js"></script>
-<script src="js/latest.js"></script>
+<script src="js/jquery.mobile-1.3.2.min.js"></script>
 <script src="js/categories.js"></script>
 <script src="js/videolist.js"></script>
-<script src="js/video.js"></script>
 
 </body>
+
 </html>

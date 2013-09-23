@@ -1,3 +1,13 @@
+var serviceURL = "http://www.hamptons-mainstreet.com/m/php/";
+
+function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+        results = regex.exec(location.search);
+    return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+
+
 $(document).on('pageshow', '#videoListPage', function(video) {
 	var videoCategoryID = getUrlVars()['videoCategoryID'];
 	showVideoList(videoCategoryID);
@@ -15,7 +25,6 @@ function showVideoList(videoCategoryID) {
 		});
 		$('#videoList').listview('refresh');
 		$('#videoList').fadeIn('slow');
-		
 	});
 }
 
